@@ -1,1 +1,3 @@
 import openai
+import os
+
