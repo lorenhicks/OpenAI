@@ -11,4 +11,6 @@ perform tasks such as managing memory, processes, software and hardware, and fac
 through graphical interfaces or command-line tools. Examples include Windows, macOS, Linux, and Unix.
 """
 
-payload = openai.ChatCompletion.create()
+payload = openai.ChatCompletion.create(
+    model="gpt-4"
+)
