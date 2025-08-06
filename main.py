@@ -14,6 +14,7 @@ through graphical interfaces or command-line tools. Examples include Windows, ma
 payload = openai.ChatCompletion.create(
     model="gpt-4"
     messages=[
-        {"role": "system", "content": "You are a teacher's assistant. Create a study guide."}
+        {"role": "system", "content": "You are a teacher's assistant. Create a study guide."},
+        {"role": "user", "content": course_content}
     ]
 )
