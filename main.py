@@ -20,3 +20,5 @@ payload = openai.ChatCompletion.create(
 )
 
 study_guide = payload['choices'][0]['message']['content']
+
+print("Course Review: ", study_guide)
