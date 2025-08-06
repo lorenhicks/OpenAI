@@ -1,7 +1,7 @@
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
 
 course_content = """
 An operating system (OS) is system software that manages computer hardware, software resources, 
