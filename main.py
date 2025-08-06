@@ -10,3 +10,5 @@ for efficient use of the system and may include accounting for resource usage. O
 perform tasks such as managing memory, processes, software and hardware, and facilitating user interaction 
 through graphical interfaces or command-line tools. Examples include Windows, macOS, Linux, and Unix.
 """
+
+payload = openai.ChatCompletion.create()
