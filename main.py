@@ -18,3 +18,5 @@ payload = openai.ChatCompletion.create(
         {"role": "user", "content": course_content}
     ]
 )
+
+study_guide = payload['choices'][0]['message']['content']
